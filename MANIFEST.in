@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include prussian_frappe_theme *.css
+recursive-include prussian_frappe_theme *.csv
+recursive-include prussian_frappe_theme *.html
+recursive-include prussian_frappe_theme *.ico
+recursive-include prussian_frappe_theme *.js
+recursive-include prussian_frappe_theme *.json
+recursive-include prussian_frappe_theme *.md
+recursive-include prussian_frappe_theme *.png
+recursive-include prussian_frappe_theme *.py
+recursive-include prussian_frappe_theme *.svg
+recursive-include prussian_frappe_theme *.txt
+recursive-exclude prussian_frappe_theme *.pyc
